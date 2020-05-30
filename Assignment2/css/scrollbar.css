@@ -1,0 +1,15 @@
+/*scrollbar styles*/
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+    margin-top: 80px;
+}
+
+body::-webkit-scrollbar-corner {
+    background-color: gradient;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(#e07a0b, #b20be0);
+    border-radius: 10px;
+}

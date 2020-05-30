@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My COVID-19 Experience</title>
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../frameworks/bootstrap/css/bootstrap.min.css">
+        
+        <!--Animate.css-->
+        <link rel="stylesheet" href="../frameworks/animate/animate.css">
+        
+        <!--This stylesheet is for the scrollbar and it's related issues that I was having including some styling for it.
+        It will  be linked in all pages despite some being dedicated to a specific CSS implementation.-->
+        <link rel="stylesheet" type="text/css" href="css/scrollbar.css"/>
+        
+        <!--bootstrap scripts-->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="../frameworks/bootstrap/js/bootstrap.min.js"></script>
+        
+        <!--icons are selected from this site and then I edit them:-->
+        <!--https://fontawesome.com/license/free-->
+        
+        <!--link to external css-->
+        <link rel="stylesheet" type="text/css" href="css/onlyCSS.css"/>
+        
+        <!--link to web tab favicon-->
+        <link rel="icon" href="images/shit.png">
+        
+        
+        
+    </head>
+    
+    <!--boday start-->
+    <body>
+        
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="images/us.png"/></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a id="hov" class="nav-link" href="about.html">About</a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a id="hov" class="nav-link" href="covid.html">COVID-19</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a id="hov" class="nav-link" href="mornings.html">Mornings</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a id="hov" class="nav-link" href="evenings.html">Evenings</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a id="hov" class="nav-link" href="night.html">Night Time</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <!--Image Silder-->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slide3.jpg">
+                    <div class="carousel-caption">
+                        <!--inline css for the slideshow captions-->
+                        <h1 class="dispaly-2" style="text-shadow: 3px 3px 5px black;">My COVID-19 Experience</h1>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/slide2.jpg">
+                    <div class="carousel-caption">
+                        <!--inline css for the slideshow captions-->
+                        <h1 class="dispaly-3" style="text-shadow: 3px 3px 5px black;">2020 Pandemic</h1>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/slide1.jpg">
+                    <div class="carousel-caption">
+                        <!--inline css for the slideshow captions-->
+                        <h1 class="dispaly-3" style="text-shadow: 3px 3px 5px black;">Survive?</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--Jumbo for Info-->
+        <div class="container-fluid">
+            <div class="row jumbotron">
+                <!--just for space-->
+            </div>
+        </div>
+        
+        
+        <!--About COVID Section-->
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="display-4">What is COVID-19?</h1>
+                    <img src="images/virus.png" class="links"/>
+                </div>
+                
+                <div class="col-12">
+                    <p class="lead">
+                        Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.<br/>
+                        It can cuase serious respiratory complications that may result in death.<br/>
+                        Most people who fall sick with COVID-19 will experience mild to moderate symptoms and recover without special treatment.<br/>
+                        Those who have underlying respiratory illnesses are more at risk for a fatal contraction of the virus.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--more info-->
+        <div class="container-fluid padding">
+            <div class="row covid text-center">
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="images/wash.png" class="links c1"/>
+                    <h3>WASH HANDS</h3>
+                    <p>Wash your hands regularly to kill germs and bacteria.</p>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="images/ruler.png" class="links c2"/>
+                    <h3>DISTANCING</h3>
+                    <p>Stay at least 7 feet away from each other.</p>
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    <img src="images/heart.png" class="links c3"/>
+                    <h3>STAY HEALTHY</h3>
+                    <p>Eat well. Exercise. Take vitamins. Rest properly.</p>
+                </div>
+            </div>
+            <hr class="my-4"/>
+        </div>
+        
+        
+        <!--jamaica vs COVID-->
+        <div class="container-fluid">
+            <div class="row jam jumbotron">
+                <div class="col-lg-6">
+                    <h2>Jamaica vs COVID-19</h2>
+                    <p class="gray lead">
+                        Currently, Jamaica has over <span class="bad">500</span> confirmed cases of COVID-19, of which over <span class="bad">300</span> are females. Approximately <span class="good">211</span> of the reported positive cases have already recovered, while <span class="bad">9</span> of them have resulted in death.
+                    </p>
+                    <p class="gray lead">
+                        Over the past 3 months, Prime Minister Hon. Andrew Holdness and the ministry of health have implemented many regulations in an attempt to reduce the spread of the virus. One such ruling is the <a href="https://jis.gov.jm/radio_programs/saturday-news-recap-april-25-2020/" target="_blank">all-island curfew</a>.
+                    </p>
+                    <p class="gray lead">
+                        The government has now decided that they should reopen the borders. Prime Minister, the Most Hon. Andrew Holness, is appealing for Jamaicans repatriated under the controlled re-entry protocols to follow the rules outlined by the Government to contain the spread of the coronavirus (COVID-19).
+                    </p>
+                    <br/>
+                    <a href="https://www.moh.gov.jm/" class="btn btn-primary" target="_blank">Learn more..</a>
+                </div>
+                <div class="col-lg-6">
+                    <iframe class="controller" width="460" height="260" src="https://www.youtube.com/embed/3BRSF8hefPk" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>
+                    <caption>Prime Minister, Hon. Andrew Holness speaking on COVID-19</caption>
+                </div>
+            </div>
+            <hr class="my-4"/>
+        </div>
+        
+        
+        <!--covid globally-->
+        <div class="container-fluid stats">
+            <div class="row text-center">
+            
+                <iframe class="stats" style="margin: auto;" height="1000" width="90%" src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe>
+            
+            </div>
+            <hr class="my-4">
+            <br/>
+        </div>
+        
+        
+        <!--connect-->
+        <div class="container-fluid padding">
+            <div class="row text-center padding con">
+                <div class="col-12">
+                    <h2 class="white">Connect</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="https://instagram.com/xtra_rf9" target="_blank"><img src="images/gram.png" class="links"/></a>
+                    <a href="https://www.linkedin.com/in/xtra-rf9/" target="_blank"><img src="images/linked.png" class="links"/></a>
+                    <a href="https://steamcommunity.com/profiles/76561198395887658/" target="_blank"><img src="images/steam.png" class="links"/></a>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    
+</html>

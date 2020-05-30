@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My COVID-19 Experience</title>
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../frameworks/bootstrap/css/bootstrap.min.css">
+        
+        <!--Animate.css-->
+        <link rel="stylesheet" href="../frameworks/animate/animate.css">
+        
+        <!--This stylesheet is for the scrollbar and it's related issues that I was having including some styling for it.
+        It will  be linked in all pages despite some being dedicated to a specific CSS implementation.-->
+        <link rel="stylesheet" type="text/css" href="css/scrollbar.css"/>
+        
+        <!--bootstrap scripts-->
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+        <script src="../frameworks/bootstrap/js/bootstrap.min.js"></script>
+        
+        <!--icons are selected from this site and then I edit them:-->
+        <!--https://fontawesome.com/license/free-->
+        
+        <!--link to external css-->
+        <link rel="stylesheet" type="text/css" href="css/onlyCSS.css"/>
+        
+        <!--link to web tab favicon-->
+        <link rel="icon" href="images/shit.png">
+        
+        
+        <!--embedded styles-->
+        <style type="text/css">
+            
+            /*for the video file*/            
+            .picLarge video, iframe{
+                width: 1030px;
+                margin: 5px;
+                border-radius: 5px;
+            }
+            
+            @media (max-width: 1100px){
+                .picLarge video, iframe{
+                    width: 600px;
+                }
+                iframe{
+                    height: 340px;
+                }
+            }
+            
+            @media (max-width: 750px){
+                .picLarge video, iframe{
+                    width: 450px;
+                }
+                iframe{
+                    height: 255px;
+                }
+            }
+            
+        </style>
+        
+        
+    </head>
+    
+    <!--boday start-->
+    <body>
+        
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo" src="images/us.png"/></a>
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a id="hov" class="nav-link" href="about.html">About</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a id="hov" class="nav-link" href="covid.html">COVID-19</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a id="hov" class="nav-link" href="mornings.html">Mornings</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a id="hov" class="nav-link" href="evenings.html">Evenings</a>
+                        </li>
+                        
+                        <li class="nav-item active">
+                            <a id="hov" class="nav-link" href="night.html">Night Time</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        
+        <!--Image Silder-->
+        <div id="slides" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#slides" data-slide-to="0" class="active"></li>
+                <li data-target="#slides" data-slide-to="1"></li>
+                <li data-target="#slides" data-slide-to="2"></li>
+            </ul>
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/slide3.jpg">
+                    <div class="carousel-caption">
+                        <!--inline css for the slideshow captions-->
+                        <h1 class="dispaly-2" style="text-shadow: 3px 3px 5px black;">My COVID-19 Experience</h1>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/slide2.jpg">
+                    <div class="carousel-caption">
+                        <!--inline css for the slideshow captions-->
+                        <h1 class="dispaly-3" style="text-shadow: 3px 3px 5px black;">2020 Pandemic</h1>
+                    </div>
+                </div>
+                
+                <div class="carousel-item">
+                    <img src="images/slide1.jpg">
+                    <div class="carousel-caption">
+                        <!--inline css for the slideshow captions-->
+                        <h1 class="dispaly-3" style="text-shadow: 3px 3px 5px black;">Survive?</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--Jumbo for Info-->
+        <div class="container-fluid">
+            <div class="row jumbotron text-center">
+                <div class="col-12">
+                    <img id="sun" src="images/moon.png" class="animated links"/>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--About COVID Section-->
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="display-4">What I do every Night</h1>
+                </div>
+                
+                <div class="col-12">
+                    <p class="lead">
+                        Play video games.
+                    </p>
+                    <p class="lead">
+                        That's it, literally.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!--more info-->
+        <div class="container-fluid padding">
+            <div class="row covid text-center">
+                <div class="col-12">
+                    <!--inline styles for the emoji-->
+                    <img src="images/shrug.png" alt="shrugging" style="width: 300px;"/>
+                </div>
+            </div>
+            <hr class="my-4"/>
+        </div>
+        
+        
+        <!--jamaica vs COVID-->
+        <div class="container-fluid">
+            <div class="row jam jumbotron flex text-center">
+                <div class="col-12 picLarge">
+                    <h2>My Gameplay Videos</h2>
+                </div>
+                <div class="col-12 picLarge">
+                    <video src="video/rocket.mp4" controls></video>
+                    <br/>
+                    <caption>Rocket League gameplay</caption>
+                </div>
+                <br/><br/>
+                <div class="col-12 picLarge">
+                    <iframe width="1030" height="542" src="https://www.youtube.com/embed/XzhylyxYhrg" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br/>
+                    <caption>Old Fornite gameplay</caption>
+                </div>
+                <div class="col-12 picLarge">
+                    <video src="video/pubg.mp4" controls></video>
+                    <br/>
+                    <caption>PUBG Mobile gameplay</caption>
+                </div>
+            </div>
+            <hr class="my-4"/>
+        </div>
+        
+        
+        <!--covid globally-->
+        <div class="container-fluid stats">
+            <div class="row text-center">
+            
+                <div class="col-12">
+                    <p class="lead">
+                        After playing games until the sun comes up, it's off to bed and then repeats everything the next day.
+                    </p>
+                </div>
+            
+            </div>
+            <hr class="my-4">
+            <br/>
+        </div>
+        
+        
+        <!--connect-->
+        <div class="container-fluid padding">
+            <div class="row text-center padding con">
+                <div class="col-12">
+                    <h2 class="white">Connect</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="https://instagram.com/xtra_rf9" target="_blank"><img src="images/gram.png" class="links"/></a>
+                    <a href="https://www.linkedin.com/in/xtra-rf9/" target="_blank"><img src="images/linked.png" class="links"/></a>
+                    <a href="https://steamcommunity.com/profiles/76561198395887658/" target="_blank"><img src="images/steam.png" class="links"/></a>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    
+</html>
